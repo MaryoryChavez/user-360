@@ -156,3 +156,44 @@ body{
     transform: translateY(-70%);
 }
 
+/*--------------------------------------------------->> SECTION VIDEO <<---------------------------------------------------*/
+
+.ejemplo {
+ padding: 5% 0;   
+}
+
+.ejemplo h3{
+    color: #68adff;
+    font-size: 2em;
+    text-align: left;
+    margin:  -left: 40px;
+    display: inline-block;
+}
+
+.ejemplo img:nth-child(2){
+    width: 260px;
+    height: auto;
+    margin-top: -1%;
+    
+}
+
+.ejemplo p{
+    text-align: left;
+}
+
+.ejemplo img:last-child{
+    height: auto;
+}
+
+
+/*--------------------------------------------------->> SECTION SUBSCRIBE <<---------------------------------------------------*/
+
+.subscribe{
+    padding: 80px 0;
+}
+
+.subscribe .escritorio{
+    background-image: url(../image/sec-2.jpg);
+	background-size: cover;
+	height: 450px;
+}
