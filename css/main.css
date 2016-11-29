@@ -1,11 +1,4 @@
 /*--------------------------------------------------->> GENERAL <<---------------------------------------------------*/
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 1px solid rgba(23, 240, 123, 0.61);
-}
-
 body{
     font-size: 14px;
 }
@@ -17,6 +10,72 @@ body{
 	content:" ";
 	clear:both;
 }
+
+
+
+.nave{
+    position: absolute; 
+	font-size: 30px;
+	top:0em;
+	right: 0.5em;
+	z-index: 30;
+	color:white;
+	cursor:pointer;
+}
+
+
+
+/**/
+
+.menu{
+	list-style:none;
+}
+.menu a{
+	display: inline-block;
+	color:white;
+	padding:15px 10px;
+	text-decoration: none;
+	font-size: 1.4rem;/*letraaa*/
+	font-weight: 600;
+	width: 100%;
+}
+.menu a:hover{
+	background-color: rgba(2, 111, 187,.2) ;
+	transition: all .8s;
+	box-shadow: 0px 3px rgba(2, 111, 187,.9);
+}
+
+.menu li{
+	margin-bottom: 5px;
+	padding-right: 5px;
+	display: inline-block;
+}
+.menu-fixed{
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left: 0;
+	padding: 10px;
+	width:100%;
+	box-shadow:0px 1px 1px rgba(0,0,0,.1);
+	background: #3B5998;
+}
+.menu-fixed #mostrar-nav{
+	position: absolute; 
+	font-size: 30px;
+	top:0em;
+	right: 0.5em;
+	z-index: 30;
+	color:white;
+	cursor:pointer;
+}
+.menu-fixed a:hover{
+	background-color: rgba(255,255,255,.2) ;
+	transition: all .8s;
+	box-shadow: 0px 3px rgba(255,255,255,.9);
+}
+
+
 
 
 /*--------------------------------------------------->> SECTION HERO <<---------------------------------------------------*/
@@ -42,7 +101,6 @@ body{
 
 .hero .menu{
     list-style: none;
-    |text-align: right;
 }
 
 .hero .menu li{
@@ -131,7 +189,7 @@ body{
     color:#6987a4
 }
 
-.cuadro a{
+.cuadro i{
     padding:40px;
     color:#6baeff;
 	border-radius: 50%;
@@ -141,7 +199,7 @@ body{
     text-decoration: none;
 }
 
-.cuadro a:hover{
+.cuadro i:hover{
 	text-decoration: none;
 	background-color: #4686bc;
 	color:white;
@@ -158,6 +216,10 @@ body{
 
 /*--------------------------------------------------->> SECTION VIDEO <<---------------------------------------------------*/
 
+.video{
+    padding-bottom: 80px;
+}
+
 .ejemplo {
  padding: 5% 0;   
 }
@@ -172,28 +234,156 @@ body{
 
 .ejemplo img:nth-child(2){
     width: 260px;
-    height: auto;
     margin-top: -1%;
     
 }
 
-.ejemplo p{
-    text-align: left;
-}
-
-.ejemplo img:last-child{
-    height: auto;
-}
-
-
 /*--------------------------------------------------->> SECTION SUBSCRIBE <<---------------------------------------------------*/
 
 .subscribe{
-    padding: 80px 0;
+    |padding-bottom: 60px;
+}
+
+.hr1{
+    transform: translateY(1.4em);
 }
 
 .subscribe .escritorio{
     background-image: url(../image/sec-2.jpg);
 	background-size: cover;
-	height: 450px;
+	height: 510px;
+}
+
+.fondo2{
+    height: 100%;
+}
+
+.obtener{
+    padding-left: 20px;
+}
+
+.obtener h4{
+    color:#97d8ff;
+    padding-top: 30px;
+}
+
+.subscribe .boton{
+    display: inline-block;
+	font-size: 30px;
+	padding:15px;
+	border-radius: 50%;
+	background-color: #50BDEA;
+	color:white;
+}
+
+.uno, .dos, .tres{
+    position: absolute;
+}
+
+.subscribe .uno{
+    transform: translateX(-2.8em) translateY(1em);
+}
+
+.subscribe .dos{
+    transform: translateX(-2.8em) translateY(2.1em);
+}
+
+.subscribe .tres{
+    transform: translateX(-2.8em) translateY(0em);
+}
+
+.arrow2{
+    
+}
+
+.subscribe img{
+    position: relative;
+    top:-52px;
+}
+
+/*--------------------------------------------------->> SECTION WHY <<---------------------------------------------------*/
+
+.why{
+    padding: 100px 0;
+}
+
+.why h3{
+    color: #68adff;
+    font-size: 2em;
+    text-align: left;
+    margin:  -left: 40px;
+    display: inline-block;
+}
+
+.why img:nth-child(2){
+    width: 260px;
+    margin-top: -1%;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+
+
+.free{
+    background-color:#74A3DB;
+	height: 100%;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.free a{
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+.free .texto{
+    font-size: 1.09em;
+}
+
+.free p:nth-child(1){
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+
+.free .boton{
+    display: inline-block;
+	font-size: 30px;
+	padding:15px;
+	color:white;
+}
+
+.free a:hover{
+    text-decoration: none;
+}
+
+
+
+
+footer{
+    background-color: #2A3541;
+	color:white;
+	font-size: 1.5rem;
+	padding:20px 20px;
+}
+
+footer a{
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 15px;
+
+}
+footer a:hover{
+	text-decoration: none;
+	color:white;
+	background-color: rgba(116, 163, 219,.3);
+}
+footer .social{
+	font-size:35px;
+	margin-left: 30px;
 }
