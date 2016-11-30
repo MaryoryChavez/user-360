@@ -70,10 +70,6 @@ body{
     width: 100%;
 }
 
-.menu{
-	list-style:none;
-}
-
 .menu a:hover{
 	transition: all 0.5s;
 	box-shadow: 0px 3px rgba(6, 133, 221, 0.9);
@@ -89,7 +85,7 @@ body{
 	left: 0;
 	padding: 8px;
 	width:103%;
-	background: rgba(59, 89, 152, 0.92);
+	background-color: rgba(59, 89, 152, 0.92);
 }
 .menu-fixed .nave{
 	position: absolute; 
