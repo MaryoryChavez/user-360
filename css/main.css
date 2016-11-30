@@ -50,6 +50,7 @@ body{
 
 .hero img{
     width: 250px;
+    margin-top:-8px;
 }
 
 .hero .menu{
@@ -62,7 +63,7 @@ body{
 
 .hero .menu a{
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: 500;
     margin: 15px;
     text-decoration: none;
