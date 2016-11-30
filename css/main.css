@@ -25,55 +25,8 @@ body{
 
 
 
-/**/
 
-.menu{
-	list-style:none;
-}
-.menu a{
-	display: inline-block;
-	color:white;
-	padding:15px 10px;
-	text-decoration: none;
-	font-size: 1.4rem;/*letraaa*/
-	font-weight: 600;
-	width: 100%;
-}
-.menu a:hover{
-	background-color: rgba(2, 111, 187,.2) ;
-	transition: all .8s;
-	box-shadow: 0px 3px rgba(2, 111, 187,.9);
-}
 
-.menu li{
-	margin-bottom: 5px;
-	padding-right: 5px;
-	display: inline-block;
-}
-.menu-fixed{
-	position:fixed;
-	z-index:1000;
-	top:0;
-	left: 0;
-	padding: 10px;
-	width:100%;
-	box-shadow:0px 1px 1px rgba(0,0,0,.1);
-	background: #3B5998;
-}
-.menu-fixed #mostrar-nav{
-	position: absolute; 
-	font-size: 30px;
-	top:0em;
-	right: 0.5em;
-	z-index: 30;
-	color:white;
-	cursor:pointer;
-}
-.menu-fixed a:hover{
-	background-color: rgba(255,255,255,.2) ;
-	transition: all .8s;
-	box-shadow: 0px 3px rgba(255,255,255,.9);
-}
 
 
 
@@ -324,7 +277,7 @@ body{
     width: 100%;
 }
 
-
+/*--------------------------------------------------->> SECTION FREE <<---------------------------------------------------*/
 
 .free{
     background-color:#74A3DB;
@@ -363,7 +316,7 @@ body{
 }
 
 
-
+/*--------------------------------------------------->> FOOTER <<---------------------------------------------------*/
 
 footer{
     background-color: #2A3541;
