@@ -19,7 +19,7 @@ body{
 	top:0em;
 	right: 0.5em;
 	z-index: 30;
-	color:white;
+	color:#fff;
 	cursor:pointer;
 }
 
@@ -70,10 +70,43 @@ body{
     width: 100%;
 }
 
+.menu{
+	list-style:none;
+}
+
 .menu a:hover{
 	transition: all 0.5s;
 	box-shadow: 0px 3px rgba(6, 133, 221, 0.9);
 }
+
+/*----->> MENU-FIXED (prueba)<<-----*/
+
+
+.menu-fixed{
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left: 0;
+	padding: 8px;
+	width:103%;
+	background: rgba(59, 89, 152, 0.92);
+}
+.menu-fixed .nave{
+	position: absolute; 
+	font-size: 30px;
+	top:0em;
+	right: 0.5em;
+	z-index: 30;
+	color:#fff;
+	cursor:pointer;
+}
+.menu-fixed a:hover{
+	transition: all .5s;
+	box-shadow: 0px 3px rgba(255,255,255,.9);
+}
+
+/*----->> MENU-FIXED FIN (prueba)<<-----*/
+
 
 .titulo{
     color: #fff;
@@ -156,7 +189,7 @@ body{
 .cuadro i:hover{
 	text-decoration: none;
 	background-color: #4686bc;
-	color:white;
+	color:#fff;
 	transition: all .6s;
 }
 
@@ -227,7 +260,7 @@ body{
 	padding:15px;
 	border-radius: 50%;
 	background-color: #50BDEA;
-	color:white;
+	color:#fff;
 }
 
 .uno, .dos, .tres{
@@ -309,7 +342,7 @@ body{
     display: inline-block;
 	font-size: 30px;
 	padding:15px;
-	color:white;
+	color:#fff;
 }
 
 .free a:hover{
@@ -321,7 +354,7 @@ body{
 
 footer{
     background-color: #2A3541;
-	color:white;
+	color:#fff;
 	font-size: 1.5rem;
 	padding:20px 20px;
 }
@@ -334,7 +367,7 @@ footer a{
 }
 footer a:hover{
 	text-decoration: none;
-	color:white;
+	color:#fff;
 	background-color: rgba(116, 163, 219,.3);
 }
 footer .social{

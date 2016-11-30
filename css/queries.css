@@ -8,9 +8,6 @@
     .nave{
         display: none;
     }
-    .menu{
-        
-    }
 }
     
 @media screen and (min-width: 640px)and (max-width: 991px){
@@ -51,7 +48,6 @@
 		transition: all .6s;
 	}
 	.menu li {
-	 	box-shadow: 3px 0 rgba(255,255,255,.2) inset;
 		display: block;
 		padding-left: 1.5em;
 	    padding-right: 5px;
@@ -59,7 +55,7 @@
 	}
 
 	nav{
-		background-color:#3B5998 ;
+		background-color:rgba(59, 89, 152, 0.92) ;
 		position: absolute;
 		left: -20em;
 		z-index: 20;
